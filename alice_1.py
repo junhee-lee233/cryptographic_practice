@@ -4,7 +4,7 @@ import logging
 import json
 import random
 import base64
-from Crypto.Cipher import AES
+from crypto.Cipher import AES
 
 
 def decrypt(key, encrypted):
